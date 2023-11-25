@@ -1,0 +1,54 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #050505;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  background-image: linear-gradient(rgb(67, 64, 64),rgb(171, 164, 164));
+  padding: 20px 50px;
+}
+  
+.container {
+  text-align: center;
+}
+  
+input {
+  padding: 8px 20px;
+  margin-right: 8px;
+}
+  
+button {
+  padding: 2.5px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+button:hover{
+  background-color: rgb(65, 64, 64);
+}
+  
+ul {
+  list-style-type: none;
+  padding: 20px;
+  margin-top: 8px;
+}
+
+li {
+  background-color: rgb(198, 191, 191);
+  margin: 8px 0;
+  padding: 7px;
+  border-radius: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li:hover {
+  background-color: rgb(119, 117, 117);
+}
